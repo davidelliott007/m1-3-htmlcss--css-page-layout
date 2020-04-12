@@ -10,4 +10,61 @@ body {
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+
+
+.revealed_menu
+{
+    display: none;
+
+}
+.individual_list
+{
+    padding-inline-start: 0px;
+    margin-block-start: unset;
+    margin-block-end: unset;
+
+}
+
+.individual_list > li
+{
+
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+
+
+}
+
+.individual_list > li:hover
+{
+    background-color: blue;
+}
+
+    
+.nav-dropdown:hover .revealed_menu{
+    display: block;
+    position: absolute;
+    /* why does the presence of position: absolute mean that the
+    dropdown menu itmes display outside of the nav bar, rather
+    than the nav bar expanding and then menu items nesting inside them> */
+    
+    top: 100%;
+
+
+        /*giving top 100% says - but the top at total 
+        From mozilla css:   
+        When position is set to absolute or fixed, the top 
+        property specifies the distance between the element's 
+        top edge and the top edge of its containing block.
+https://developer.mozilla.org/en-US/docs/Web/CSS/top
+        */
+
+    left: 0;
+    background-color: #03a9f4;
+
+
 }

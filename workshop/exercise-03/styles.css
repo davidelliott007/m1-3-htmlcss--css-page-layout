@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main
+{
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.title-text
+{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+h1
+{
+    color: white;
+    text-shadow: dimgray;
+
+
+}

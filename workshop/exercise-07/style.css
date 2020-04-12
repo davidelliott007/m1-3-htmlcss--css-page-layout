@@ -5,3 +5,63 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+
+.container
+{
+  padding: 5px 10px;
+}
+
+header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.desktop-nav
+{
+  margin-left: auto;
+  /*finally solved this - how to put one element in the flexbox 
+  juefitified-left - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+  */
+}
+
+.mobile-nav
+{
+  align-self: center;
+}
+
+.desktop-nav ul
+{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.desktop-nav ul > li
+{
+  list-style: none;
+  margin: 10px
+}
+
+
+@media (max-width: 800px)
+{
+
+  .desktop-nav
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 799px)
+{
+.mobile-nav-button
+{
+  display: none;
+}
+}
+

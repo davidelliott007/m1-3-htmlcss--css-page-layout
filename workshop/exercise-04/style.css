@@ -1,0 +1,74 @@
+
+.nav, .footer
+{
+    background-color: blue;
+}
+
+.container
+{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.main
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.centertext
+{
+    margin-top: 0px;
+    max-width: 375px;
+
+}
+
+.top-box
+{
+    border: 2px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 3px 25px;
+    border-style: solid;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h1
+{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+.link::after {
+    content: ' >';
+}
+  
+
+.link:hover {
+    text-decoration: underline;
+  }
+  
+
+body
+{
+    margin: 0px;
+    font-size: 15px;
+}

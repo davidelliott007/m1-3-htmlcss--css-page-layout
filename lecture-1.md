@@ -23,6 +23,9 @@ This `px` unit is **not** a screen pixel, but a CSS pixel.
 
 It's approx. 1/96 inches, _but it varies from display to display._
 
+Dave notes:
+
+
 ---
 
 ### Example of a Desktop site
@@ -45,16 +48,21 @@ Add the following to your HTML page(s)
 
 This will make the CSS pixels scale on mobile devices.
 
+
+Dave Note - look up CSS Pixels?  Further reading?
 ---
 
 The same site _fixed_
 
 <img src='./assets/nresp_mobile_fix.png' />
 
+DN - - This is not "responsive" but it's being scaled.
 ---
 
 ## [Responsive vs. Mobile-first](https://darwindigital.com/mobile-first-versus-responsive-web-design/)
 
+DN - From a design perspective, start with Mobile first
+You design for your biggest constraint 
 ---
 
 <img src='./assets/responsive.png' />
@@ -115,6 +123,28 @@ Media queries can be used to check many things, such as:
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
 
+so you use @media screen, and this gives you a condition 
+(max width or min width)
+
+So to do mobile first
+
+Do mobile as default
+
+Then do media min-width to do anuy stying with a screne that is *at least* 900px wide
+or whatever you imagine a PC screen is.
+
+6:20 - doing well so far.
+
+500 px is a good middle point
+
+Anything below 500 is mobile
+
+
+1024 is smallest for desktop
+
+
+
+
 ---
 
 # Advanced topics
@@ -150,6 +180,9 @@ Media queries can be used to check many things, such as:
 - Scale
 
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
+
+
+DN: Translate is interesting - it's an animation property for changing location?
 
 ---
 

@@ -4,46 +4,93 @@ body {
 }
 
 .header {
-
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    width: 100vw;
+    color: white;
+    padding: 20px;
 }
 
 .registration-form {
-
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 1px #ddd;
+    margin-bottom: 20px;
+  
 }
+
 
 .text-field {
-
-}
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #0096fb;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
 
 .radio-label,
 .checkbox-label {
-
+    text-align: left;
+    margin: 10px 10px 10px 0px;
 }
 
 label {
+display: block;
+text-align: center;
+}
+
+.section{
+    border-top: 1px solid rgb(180, 180, 180);
+    padding-top: 10px;
+    display: block;
+
+
 
 }
 
-.section {
-
-}
 
 .section > label {
-
+text-align: left;
+display: block;
 }
 
 select {
-
+    border: grey;
 }
 
 textarea {
+display: block;
+width: 100%;
+border: hidden;
+background-color: #f5f5f5;
+min-height: 80px;
 
 }
 
 .form-button {
 
+
+    display: block;
+    border-radius: 2px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-color: blue;
+    margin: 20px auto;
+    transition: all 0.2s;
+
 }
 
 .form-button:hover {
+
+    background-color: rgb(0, 162, 255);
+    color: white;
     
 }

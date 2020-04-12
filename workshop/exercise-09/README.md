@@ -16,7 +16,6 @@ Update only the `style.css` file to reproduces the following:
 border-spacing
 border-radius
 border
-background-color
 margin-bottom
 justify-content
 flex
