@@ -1,0 +1,53 @@
+
+
+
+.alert
+{
+    font-family: Poppins, sans-serif;
+    border-radius: 5px;
+
+}
+
+.alert-primary
+{
+    background-color: lightskyblue;
+    color: mediumblue;
+}
+
+.alert-secondary
+{
+    background-color: gainsboro;
+    color: dadimgrayrkgray;
+}
+
+.alert-success
+{
+    background-color: rgb(182, 229, 182);
+    color: rgb(0, 82, 0);
+}
+
+
+
+.alert > p
+{
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.alert >p:after
+{  content: " ";
+    display: inline-block;
+    border: 1px solid grey;
+    width: 3%;
+    margin: 4px auto;
+  
+    
+}
+
+.alert >p:after:after
+{  
+    content: "ddd";
+
+}
+
+

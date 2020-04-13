@@ -10,7 +10,62 @@ body {
 }
 
 .fast {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-timing-function: ease-in-out;
 }
 
 .cool {
+  padding: 20px;
+  background-color: rgb(54, 143, 216);
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 8px #888888;
+  border-radius: 8px;
+  
 }
+
+.cool:hover
+{
+  animation-duration: 1s;
+  animation-name: buttonExpand;
+  animation-timing-function: ease-in-out;
+  cursor: pointer;
+
+}
+
+@keyframes slidein {
+  from {
+    transform: translate(300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0px);
+
+    opacity: 1;
+  }
+}
+
+@keyframes buttonExpand {
+  from {
+    transform: scale(1) rotate(0deg);
+
+    }
+
+
+    60% {
+      transform: scale(1.5) rotate(0deg);
+    }
+  
+    95%
+    {
+      transform: scale(0.8) rotate(360deg);
+    }
+
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+

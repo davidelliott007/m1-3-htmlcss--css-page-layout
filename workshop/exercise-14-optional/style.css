@@ -1,0 +1,60 @@
+.btn
+{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;    
+    color: white;
+
+
+
+}
+
+.btn-primary
+{
+    background-color: dodgerblue;
+}
+
+.btn-secondary
+{
+    background-color: grey;
+}
+.btn-success
+{
+    background-color: forestgreen;
+}
+
+.btn-Danger
+{
+    background-color: crimson;
+}
+
+.btn-Warning
+{
+    background-color: gold;
+    color: rgb(107, 107, 107);
+}
+
+.btn-Info
+{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.btn-Light
+{
+    background-color: snow;
+    border-color: gainsboro;
+    color: black;
+}
+
+.btn-Dark
+{
+    background-color: dimgray;
+    color: white;
+}
+
+.btn-Link
+{
+    border-style: none;
+    color: dodgerblue;
+}

@@ -1,0 +1,48 @@
+.container
+{
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+    /*question -  why is it that 
+       align-items: center;
+    justify-content: center
+    shrink the element size when I put them here, instead
+    of .centered? 
+    in here and not ;
+*/
+
+
+}
+
+nav, footer
+{
+    text-align: center;
+    background-color: #3a3633;
+    padding: 15px;
+    color: white;
+    min-height: 40px;
+    /*question - how come I don't need a flex number here?
+    I tried it with flex 1 here, and flex 8 in main, and 
+    it didn't work as well as just having flex 1 in main*/
+}
+
+
+.centered
+{
+    text-align: center;
+    
+
+}
+main
+{
+    min-height: calc(100vh - 480px);
+    font-size: 15px;
+    padding-top: calc((100vh - 185px)*0.25);
+    padding-bottom: calc((100vh - 185px)*0.25);
+
+}
+
+body
+{
+    margin: 0px;
+}
