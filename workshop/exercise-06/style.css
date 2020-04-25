@@ -50,7 +50,12 @@ body {
     position: absolute;
     /* why does the presence of position: absolute mean that the
     dropdown menu itmes display outside of the nav bar, rather
-    than the nav bar expanding and then menu items nesting inside them> */
+    than the nav bar expanding and then menu items nesting inside them> 
+    
+    
+    Answered by Josh - to take it out of the syling flow. popsition absolute takes it out of that?
+
+    */
     
     top: 100%;
 
